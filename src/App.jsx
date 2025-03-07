@@ -3,6 +3,7 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
+import Navbar from './components/Navbar'
 
 const App = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div className="bg-gray-900 text-white">
+      <Navbar />
       <Hero />
       <About />
       <Projects />

@@ -2,7 +2,10 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col items-center justify-center text-center px-6">
+    <section
+      id="home"
+      className="h-screen flex flex-col items-center justify-center text-center px-6"
+    >
       <h1 className="text-5xl font-bold">
         Hi, I'm <span className="text-blue-500">Jayson Chiu</span>
       </h1>
